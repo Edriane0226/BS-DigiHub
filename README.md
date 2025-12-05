@@ -16,10 +16,18 @@ check app.BaseUrl and Database Settings
 
 
 
-# Database Migrate commands
+## Database Setup
 
+MySQL
+
+create database digihub
+
+In Project Folder Terminal use Commands
+
+For Migrate
 php spark migrate
 
+For Rollback
 php spark migrate:rollback
 
 ## Server Requirements
