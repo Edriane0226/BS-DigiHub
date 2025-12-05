@@ -17,6 +17,7 @@ check app.BaseUrl and Database Settings
 # Database Migrate commands
 
 php spark migrate
+
 php spark migrate:rollback
 
 ## Server Requirements
