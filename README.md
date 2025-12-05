@@ -24,11 +24,16 @@ create database digihub
 
 In Project Folder Terminal use Commands
 
-For Migrate
+For Migrate:
 php spark migrate
 
-For Rollback
+For Rollback:
 php spark migrate:rollback
+
+We Forgot to add Shelf location function to test it use this:
+
+Seeder:
+php spark db:seed ShelfSeeder
 
 ## Server Requirements
 

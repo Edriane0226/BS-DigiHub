@@ -22,5 +22,7 @@ class ShelfSeeder extends Seeder
                 'loc_descrip' => 'Second Floor - Aisle 1',
             ],
         ];
+
+        $this->db->table('shelf_locations')->insertBatch($data);
     }
 }
