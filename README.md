@@ -9,7 +9,7 @@ Composer Install
 
 .env In Submission
 
-Add the .env file in project root
+Create the .env file in project root 
 check app.BaseUrl and Database Settings
 
 
